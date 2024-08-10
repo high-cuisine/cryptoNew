@@ -1,0 +1,15 @@
+.title {
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.main {
+    background-image: url(../../assets/MainBackground.png);
+    background-size: 100%;
+    background-color: #010727;
+    padding-top: 20px;
+   
+}

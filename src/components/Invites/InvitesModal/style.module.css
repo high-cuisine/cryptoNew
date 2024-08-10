@@ -1,0 +1,58 @@
+.main {
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 50000;
+    display: none;
+}
+.active {
+    display: block;
+}
+.overlay {
+    width: 100%;
+    height: 100vh;
+    background: #00000095;
+    position: relative;
+}
+.content {
+    position: absolute;
+    bottom:0;
+    width: 100%;
+    background: #1b1b1c;
+    border-top-left-radius: 17px;
+    border-top-right-radius: 17px;
+    padding: 0 5px;
+}
+.header {
+    display: flex;
+    position: relative;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    border-bottom: 1px solid #fff;
+}
+.header img {
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    top:50%;
+    right:10px;
+    transform: translateY(-50%);
+}
+.body {
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+    padding-top: 10px;
+}
+.body button {
+    border:none;
+    background: #fff;
+    font-size:16px;
+    padding: 15px;
+    font-weight: 600;
+    border-radius: 5px;
+}

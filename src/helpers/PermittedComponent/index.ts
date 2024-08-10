@@ -1,0 +1,1 @@
+export {PermittedComponent} from "./PermittedComponent"

@@ -1,0 +1,1 @@
+export {LeagueSwiper} from "./LeagueSwiper";

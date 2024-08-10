@@ -1,0 +1,27 @@
+body:has(.page) {
+    height: 100vh;
+    overflow: hidden;
+
+    overscroll-behavior: none !important;
+    touch-action: none !important;
+    -webkit-touch-callout: none !important;
+}
+
+.page {
+
+}
+
+.page:has(.gameScreen[data-fullscreen="true"]) {
+    position: fixed;
+    z-index: 999;
+}
+
+.gameScreen {
+    display: block;
+
+    background-color: #010727;
+}
+
+.gameScreen[data-fullscreen="true"] {
+
+}

@@ -1,0 +1,61 @@
+.container {
+    background-image: url(../../assets/MainBackground.png);
+    background-size: 100%;
+    background-color: #010727;
+    padding-top: 20px;
+    height: 100vh;
+    display: flex;
+
+    align-items: center;
+    flex-direction: column;
+   
+}
+
+.userHeader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:9px;
+}
+
+.userHeader span {
+    font-weight: 700;
+font-size: 20px;
+color: #fff;
+}
+.userHeader img {
+    width: 33px;
+    height: 33px;
+}
+
+.button {
+    font-weight: 800;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #00ff60;
+    padding: 10px 36px;
+    background: linear-gradient(90deg, #353d84 0%, #1d2255 100%);
+    border-radius: 17px;
+    border:none;
+    margin: 15px 0;
+}
+
+.text {
+    font-weight: 600;
+font-size: 14px;
+text-align: center;
+color: #fff;
+max-width: 250px;
+}
+
+.rewardsButton {
+    font-weight: 600;
+font-size: 16px;
+text-transform: uppercase;
+text-align: center;
+color: #fff;
+padding: 12px 36px;
+background: linear-gradient(90deg, #353d84 0%, #1b2052 100%);
+border-radius: 17px;
+border:none;
+}

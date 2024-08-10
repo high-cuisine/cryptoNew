@@ -1,0 +1,21 @@
+.card {
+    display: flex;
+
+    justify-content: space-between;
+
+    padding: 1em;
+
+    background: linear-gradient(90deg, rgba(53, 61, 132, 0.81) 0%, rgba(26, 30, 79, 0.81) 100%);
+
+    border-radius: 1em;
+    
+}
+
+.card span {
+    display: block;
+}
+
+.label {
+    display: flex;
+    gap:10px;
+}

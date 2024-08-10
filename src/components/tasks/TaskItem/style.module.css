@@ -1,0 +1,66 @@
+.action {
+    font-weight: 700;
+font-size: 16px;
+text-transform: uppercase;
+color: #fff;
+}
+.name {
+    font-weight: 500;
+font-size: 16px;
+text-transform: uppercase;
+color: #fff;
+}
+
+.item {
+    padding: 14px 20px;
+    border-radius: 18px;
+    background: linear-gradient(90deg, #2b3275 0%, #1a1e4f 100%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.done {
+    opacity: 0.8;
+}
+
+.active {
+    background: linear-gradient(90deg, #00ff60 0%, #01c84c 100%);
+}
+
+.active span {
+    color: #000 !important;;
+}
+
+.textCont {
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+}
+
+.statusCont button {
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+    
+    padding: 5px 7px;
+    border-radius: 13px;
+    
+    border: none;
+}
+
+.claim {
+    color: #2b3275;
+    background: #01ff60;
+}
+
+.work {
+    background: #2b3275;
+    color: #01ff60;
+}
+
+.doneClaim {
+    background: #2b3275;
+    color: #fff;
+}

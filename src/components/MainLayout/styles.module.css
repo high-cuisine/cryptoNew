@@ -1,0 +1,16 @@
+.wrapper {
+    min-height: 100dvh;
+}
+
+.layout {
+    height: 100%;
+}
+
+.menuWrapper {
+    position: fixed;
+
+    left: 0;
+    bottom: 25px;
+
+    width: 100dvw;
+}

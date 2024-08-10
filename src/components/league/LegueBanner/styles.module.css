@@ -1,0 +1,35 @@
+.main {
+    border-radius: 18px;
+    background: linear-gradient(90deg, #353d84 0%, #252b62 100%);
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 0 19px;
+}
+.main span {
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.main {
+    margin-top: -42px;;
+}
+
+.progressLine {
+    height: 4px;
+}
+
+.coins {
+    margin: 10px 0 18px;
+}
+
+@media (max-height:720px) {
+    .main {
+        transform: scale(0.85);
+        margin-top: -60px;
+    }
+}

@@ -1,0 +1,25 @@
+.main {
+    width: 100%;
+}
+
+.list {
+    width: 100%;
+    justify-content: space-between;
+    max-width: 310px;
+    height: 43vh;
+    overflow: auto;
+}
+
+.list::-webkit-scrollbar {
+    display: none;
+}
+
+.item {
+    width: 100%;
+   
+}
+.itemCont {
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+}

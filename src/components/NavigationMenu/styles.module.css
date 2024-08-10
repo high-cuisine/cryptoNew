@@ -1,0 +1,49 @@
+.container {
+    padding: 0 9px;
+}
+
+.menu {
+    padding: .5em 1em;
+
+    border-radius: 1.25em;
+
+    background: radial-gradient(50% 50% at 50% 50%, rgba(49, 41, 103, 0.2) 0%, rgba(86, 70, 180, 0.2) 100%);
+}
+
+.menuWrapper {
+    display: flex;
+
+    justify-content: space-around;
+    align-items: center;
+
+    overflow-x: auto;
+
+    gap: .5em;
+}
+
+.menuWrapper > .item {
+    display: block;
+
+    color: white;
+    text-decoration: none;
+
+    font-weight: bolder;
+    font-style: italic;
+
+    text-transform: uppercase;
+
+    font-size: 0.9em;
+}
+
+.menuWrapper > .item.active {
+    padding: .5em 1em;
+
+    background-color: #353D84;
+    border-radius: 1.25em;
+}
+
+.menuWrapper > .item.disabled {
+    pointer-events: none;
+
+    color: #FEFEFE78;
+}

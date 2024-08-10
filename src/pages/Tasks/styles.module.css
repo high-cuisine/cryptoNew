@@ -1,0 +1,13 @@
+.main {
+    background-image: url(../../assets/MainBackground.png);
+    background-size: 100%;
+    background-color: #010727;
+    padding-top: 20px;
+    height: 100vh;
+   
+}
+
+.title {
+    text-align: center;
+    text-transform: uppercase;
+}
